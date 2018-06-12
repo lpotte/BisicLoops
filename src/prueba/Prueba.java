@@ -32,6 +32,11 @@ public class Prueba {
                 }
                 break;
             case 2:
+                int k = 0;
+                while(k<=9){
+                    System.out.println("loop while!! "+k);
+                    k++;
+                }
                 break;
             case 3:
                 break;
