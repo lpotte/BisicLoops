@@ -39,6 +39,11 @@ public class Prueba {
                 }
                 break;
             case 3:
+                int f = 0;
+                do{
+                    System.out.println("loop do while!! "+f);
+                    f++;
+                }while (f<=10);
                 break;
             case 4:
                 System.out.println("Salida exitosa");
