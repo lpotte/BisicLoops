@@ -22,28 +22,32 @@ public class Prueba {
                 + "0) Ciclo para \n"
                 + "1) Ciclo Mientras Que \n"
                 + "2) Ciclo Hacer Mientras \n"
+                + "3) Condicional \n"
                 + "4) Salir");        
         System.out.print("Digite una opción ");
         int i = sc.nextInt();
         switch (i){
-            case 1:
+            case 0:
                 for (int j=0; i<=9 ;j++){
                     System.out.println("Loop for!! "+j);
                 }
                 break;
-            case 2:
+            case 1:
                 int k = 0;
                 while(k<=9){
                     System.out.println("loop while!! "+k);
                     k++;
                 }
                 break;
-            case 3:
+            case 2:
                 int f = 0;
                 do{
                     System.out.println("loop do while!! "+f);
                     f++;
                 }while (f<=10);
+                break;
+            case 3: 
+                System.out.println("Digite ");
                 break;
             case 4:
                 System.out.println("Salida exitosa");
