@@ -14,16 +14,15 @@ public class Prueba {
     /**
      * @param args the command line arguments
      */
-    Scanner sc;
-    public Prueba (){
-        sc = new Scanner(System.in);
-    }
+    
     public static void main(String[] args) {
-        
-        System.out.println("Programa de prueba");
-        System.out.println("Menú de opciones");
-        
-        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Programa de prueba, Conceptos básicos de programación.");
+        System.out.println("Menú de opciones \n"
+                + "0) Ciclo para \n"
+                + "1) Ciclo Mientras Que \n"
+                + "2) Ciclo Hacer Mientras \n");
+        int i = sc.nextInt();
         
     }
     
