@@ -21,7 +21,8 @@ public class Prueba {
         System.out.println("Menú de opciones \n"
                 + "0) Ciclo para \n"
                 + "1) Ciclo Mientras Que \n"
-                + "2) Ciclo Hacer Mientras \n");
+                + "2) Ciclo Hacer Mientras \n"
+                + "4) Salir");        
         System.out.print("Digite una opción ");
         int i = sc.nextInt();
         switch (i){
@@ -31,7 +32,10 @@ public class Prueba {
                 break;
             case 3:
                 break;
+            case 4:
+                System.out.println("Salida exitosa");
             default:
+                System.out.println("Opcion incorrecta");
                 break;
         }
         
