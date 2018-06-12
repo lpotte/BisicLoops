@@ -22,7 +22,18 @@ public class Prueba {
                 + "0) Ciclo para \n"
                 + "1) Ciclo Mientras Que \n"
                 + "2) Ciclo Hacer Mientras \n");
+        System.out.print("Digite una opción ");
         int i = sc.nextInt();
+        switch (i){
+            case 1:
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            default:
+                break;
+        }
         
     }
     
