@@ -27,6 +27,9 @@ public class Prueba {
         int i = sc.nextInt();
         switch (i){
             case 1:
+                for (int j=0; i<=9 ;j++){
+                    System.out.println("Loop for!! "+j);
+                }
                 break;
             case 2:
                 break;
